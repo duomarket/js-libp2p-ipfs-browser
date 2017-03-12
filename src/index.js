@@ -1,7 +1,7 @@
 'use strict'
 
 const WS = require('libp2p-websockets')
-const WebRTCStar = require('libp2p-webrtc-star')
+//const WebRTCStar = require('libp2p-webrtc-star')
 const spdy = require('libp2p-spdy')
 const multiplex = require('libp2p-multiplex')
 const secio = require('libp2p-secio')
@@ -35,12 +35,12 @@ function getMuxers (options) {
 class Node extends libp2p {
   constructor (peerInfo, peerBook, options) {
     options = options || {}
-    const webRTCStar = new WebRTCStar()
+    //const webRTCStar = new WebRTCStar()
 
     const modules = {
       transport: [
-        new WS(),
-        webRTCStar
+        new WS()
+        //webRTCStar
       ],
       connection: {
         muxer: getMuxers(options.muxer),
@@ -51,9 +51,9 @@ class Node extends libp2p {
       discovery: []
     }
 
-    if (options.webRTCStar) {
-      modules.discovery.push(webRTCStar.discovery)
-    }
+    //if (options.webRTCStar) {
+    //  modules.discovery.push(webRTCStar.discovery)
+    //}
 
     if (options.bootstrap) {
       const r = new Railing(options.bootstrap)
