@@ -47,7 +47,7 @@
     "libp2p": "git://github.com/duomarket/js-libp2p.git",
     "libp2p-multiplex": "^0.4.3",
     "libp2p-secio": "git://github.com/duomarket/js-libp2p-secio.git",
-    "libp2p-swarm": "~0.26.19",
+    "libp2p-swarm": "git://github.com/duomarket/js-libp2p-swarm.git",
     "libp2p-websockets": "git://github.com/duomarket/js-libp2p-websockets.git",
     "mafmt": "^2.1.7",
     "multiaddr": "^2.2.3",
