@@ -46,7 +46,6 @@
   "dependencies": {
     "libp2p": "~0.6.0",
     "libp2p-multiplex": "^0.4.3",
-    "libp2p-railing": "~0.4.3",
     "libp2p-secio": "~0.6.8",
     "libp2p-swarm": "~0.26.19",
     "libp2p-websockets": "git://github.com/duomarket/js-libp2p-websockets.git",
