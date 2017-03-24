@@ -51,7 +51,7 @@
     "libp2p-websockets": "git://github.com/duomarket/js-libp2p-websockets.git",
     "mafmt": "^2.1.7",
     "multiaddr": "^2.2.3",
-    "peer-book": "~0.3.2",
+    "peer-book": "git://github.com/duomarket/js-peer-book.git",
     "peer-id": "git://github.com/duomarket/js-peer-id.git",
     "peer-info": "git://github.com/duomarket/js-peer-info.git"
   },
