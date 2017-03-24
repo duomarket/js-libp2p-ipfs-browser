@@ -36,7 +36,7 @@
     "dirty-chai": "^1.2.2",
     "gulp": "^3.9.1",
     "libp2p-ipfs-nodejs": "~0.21.0",
-    "peer-id": "~0.8.5",
+    "peer-id": "git://github.com/duomarket/js-peer-id.git",
     "pre-commit": "^1.2.2",
     "pull-goodbye": "0.0.1",
     "pull-serializer": "^0.3.2",
@@ -52,7 +52,7 @@
     "mafmt": "^2.1.7",
     "multiaddr": "^2.2.3",
     "peer-book": "~0.3.2",
-    "peer-id": "~0.8.5",
+    "peer-id": "git://github.com/duomarket/js-peer-id.git",
     "peer-info": "~0.8.5"
   },
   "contributors": [
