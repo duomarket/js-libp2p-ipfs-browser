@@ -53,7 +53,7 @@
     "multiaddr": "^2.2.3",
     "peer-book": "~0.3.2",
     "peer-id": "git://github.com/duomarket/js-peer-id.git",
-    "peer-info": "~0.8.5"
+    "peer-info": "git://github.com/duomarket/js-peer-info.git"
   },
   "contributors": [
     "David Dias <daviddias.p@gmail.com>",
