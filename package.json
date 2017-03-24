@@ -44,7 +44,7 @@
     "webrtcsupport": "^2.2.0"
   },
   "dependencies": {
-    "libp2p": "~0.6.0",
+    "libp2p": "git://github.com/duomarket/js-libp2p.git",
     "libp2p-multiplex": "^0.4.3",
     "libp2p-secio": "git://github.com/duomarket/js-libp2p-secio.git",
     "libp2p-swarm": "~0.26.19",
